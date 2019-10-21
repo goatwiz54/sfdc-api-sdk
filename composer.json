@@ -1,0 +1,14 @@
+{
+    "name": "kamakurashinsho/sfdc-api-sdk",
+    "license": "MIT",
+    "require": {
+        "php": ">= 5.3.0",
+        "guzzlehttp/guzzle": "~4.2",
+        "vlucas/phpdotenv": "^2.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "SfdcApiSdk\\": "src/"
+        }
+    }
+}
